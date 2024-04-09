@@ -19,7 +19,7 @@ const FlatItem = ({flat}) => {
     };
 
     return (
-        <div className="text-center col-lg-4 col-12 col-md-6 ">
+        <div className="text-center col-lg-6 col-12 col-md-6 ">
             <div className="item">
                 <div className="item-image">
                     <img className="img-fluid" src={flat.images[0]} alt="flat" />
@@ -27,7 +27,7 @@ const FlatItem = ({flat}) => {
                 <div className="item-description">
                     <div className="d-flex justify-content-between mb-4">
                     <span className="item-title">{flat.title}</span>
-                    <span className="item-price">{flat.unit.price}</span>
+                    <span className="item-price">{formattedPrice(flat.unit.price)}</span>
                     {/* <span className="item-price">{formattedPrice(flat.unit.price)}</span> */}
                     </div>
                     <div className="item-icon d-flex alig-items-center justify-content-between">

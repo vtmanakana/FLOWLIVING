@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 
 const FlatList = () => {
     const title = {
-        text: "Flow Property List",
+        text: "Property List",
         description: "Showing all results"
     }
     const [flats, setFlats] = useState([]);

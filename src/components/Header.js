@@ -9,9 +9,9 @@ const Header = () => {
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/">
                             <div className="d-flex align-items-center">
-                            <i className="fas fa-home"></i>
+                            {/* <i className="fas fa-home"></i> */}
                                 <span className="ms-2">
-                                    Flow Living
+                                    Flow
                            </span>
                             </div>
                         </Link>
@@ -24,13 +24,13 @@ const Header = () => {
                                     <Link className="nav-link" to="/">Home</Link>
                                 </li>
 
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link  className="nav-link" to="/about">About</Link>
                                 </li>
 
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/contact">Contact</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

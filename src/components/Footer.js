@@ -5,7 +5,7 @@ const Footer = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-6">
+                    {/* <div className="col-lg-3 col-md-6">
                         <i className="fas fa-home"></i>
                         <span className="footer-other-text d-block mt-3 mb-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -15,8 +15,8 @@ const Footer = () => {
                             <div className="footer-social-item"><i className="fab fa-twitter"></i></div>
                             <div className="footer-social-item"> <i className="fab fa-instagram"></i></div>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
+                    </div> */}
+                    {/* <div className="col-lg-3 col-md-6">
                         <p className="footer-title">Menu</p>
                         <ul className="footer-ul">
                             <li>Home</li>
@@ -24,8 +24,8 @@ const Footer = () => {
                             <li>About</li>
                             <li>Contact</li>
                         </ul>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
+                    </div> */}
+                    {/* <div className="col-lg-3 col-md-6">
                         <div>
                             <p className="footer-title">Categories</p>
                             <ul className="footer-ul">
@@ -35,9 +35,9 @@ const Footer = () => {
                                 <li>Category 4</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="col-lg-3 col-md-6">
+                    {/* <div className="col-lg-3 col-md-6">
                         <p className="footer-title">Contact</p>
                         <ul className="footer-ul">
                             <li className="d-flex">
@@ -53,7 +53,7 @@ const Footer = () => {
                                 <div className="footer-info-item"><i className="fas fa-phone-alt"></i></div> <span>0500 000 00 00</span>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                     {/*<div className="col-lg-3 col-md-6">
                         <p className="footer-title">Subscribe</p>
                         <span className="footer-other-text">
